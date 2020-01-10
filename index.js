@@ -19,7 +19,7 @@ function deleteFromObjectByKey(object, key){
   return newObj
 }
 
-deleteFromObjectByKey(newObj, 1);
+deleteFromObjectByKey(newObj, prop);
 
 function destructivelyDeleteFromObjectByKey(object,key){
   delete object.key
